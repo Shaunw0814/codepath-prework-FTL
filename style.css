@@ -50,7 +50,8 @@ h1 {
 /* --- short description --- */
 #shortDesc {
   text-align: center;
-  font-size: 17px;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 /* --- center --- */
