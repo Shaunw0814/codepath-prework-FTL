@@ -22,6 +22,7 @@ var tonePlaying = false;
 var volume = 0.2; //must be between 0.0 and 1.0
 var guessCounter = 0;
 var clueHoldTime = 120; //how long to hold each clue's light/sound
+var lives = 3;
 
 //function random secret pattern
 function randomize(pattern) {
@@ -121,12 +122,20 @@ document.onkeyup = function kUp(x) {
 function loseGame() {
   stopGame();
   alert("Game Over. You lost.");
+  document.getElementById("heart1").classList.remove("hidden");
+  document.getElementById("heart2").classList.remove("hidden");
+  document.getElementById("heart3").classList.remove("hidden");
+  lives = 3;
 }
 
 //winGame - notification for winning
 function winGame() {
   stopGame();
   alert("Game Over. You won!");
+  document.getElementById("heart1").classList.remove("hidden");
+  document.getElementById("heart2").classList.remove("hidden");
+  document.getElementById("heart3").classList.remove("hidden");
+  lives = 3;
 }
 
 //playSingleCue
@@ -150,7 +159,8 @@ function playClueSequence() {
     delay += clueHoldTime;
     delay += cluePauseTime;
   }
-  //clueHoldTime -= 30;
+  clueHoldTime -= 3;
+  cluePauseTime -= 10;
 }
 
 //guess checking logic
@@ -190,8 +200,21 @@ function guess(btn) {
     lit4.style.background = "white";
     lit5.style.background = "white";
     lit6.style.background = "white";
-
-    loseGame();
+    if(lives == 1){
+      document.getElementById('heart1').classList.add("hidden");
+      loseGame();
+    }
+    else{
+      if(lives == 3){
+        document.getElementById('heart3').classList.add("hidden");
+      }
+      else if(lives == 2){
+        document.getElementById('heart2').classList.add("hidden");
+      }
+      
+      alert("Wrong Guess, Lives left = " + --lives);
+    }
+    
   }
 }
 
