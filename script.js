@@ -64,18 +64,86 @@ function stopGame() {
 
   //uncheck randomize, default to Fur-Elise
   document.getElementById("randomize").checked = false;
+  
+}
+
+//keybinds to clicking
+document.onkeydown = function kDown(x){
+  if(x.which == 49){
+    lit1.style.background = "lightgreen";
+    startTone(1);
+    guess(1);
+  }
+  else if(x.which == 50){
+    lit2.style.background = "lightgreen";
+    startTone(2);
+    guess(2);
+  }
+  else if(x.which == 51){
+    lit3.style.background = "lightgreen";
+    startTone(3);
+    guess(3);
+  }
+  else if(x.which == 52){
+    lit4.style.background = "lightgreen";
+    startTone(4);
+    guess(4);
+  }
+  else if(x.which == 53){
+    lit5.style.background = "lightgreen";
+    startTone(5);
+    guess(5);
+  }
+  else if(x.which == 54){
+    lit6.style.background = "lightgreen";
+    startTone(6);
+    guess(6);
+  }
+}
+
+document.onkeyup = function kUp(x){
+  if(x.which == 49){
+    lit1.style.background = "white";
+    stopTone(1);
+  }
+  else if(x.which == 50){
+    lit2.style.background = "white";
+    stopTone(2);
+  }
+  else if(x.which == 51){
+    lit3.style.background = "white";
+    stopTone(3);
+  }
+  else if(x.which == 52){
+    lit4.style.background = "white";
+    stopTone(4);
+  }
+  else if(x.which == 53){
+    lit5.style.background = "white";
+    stopTone(5);
+  }
+  else if(x.which == 54){
+    lit6.style.background = "white";
+    stopTone(6);
+  }
 }
 
 //loseGame - notification when lost
 function loseGame() {
   stopGame();
-  alert("Game Over. You lost.");
+  alert("Game Over. You lost. (click ok to stop tone)");
+  for(let i = 1; i < 7; i++){
+    stopTone(i);
+  }
 }
 
 //winGame - notification for winning
 function winGame() {
   stopGame();
-  alert("Game Over. You won!");
+  alert("Game Over. You won! (click ok to stop tone)");
+  for(let i = 1; i < 7; i++){
+    stopTone(i);
+  }
 }
 
 //playSingleCue
@@ -115,6 +183,12 @@ function guess(btn) {
     if (guessCounter == progress) {
       //last turn check
       if (guessCounter == pattern.length - 1) {
+        lit1.style.background = "white";
+        lit2.style.background = "white";
+        lit3.style.background = "white";
+        lit4.style.background = "white";
+        lit5.style.background = "white";
+        lit6.style.background = "white";
         winGame();
       } else {
         progress += 1;
@@ -127,6 +201,13 @@ function guess(btn) {
 
   //wrong guess
   else {
+    lit1.style.background = "white";
+    lit2.style.background = "white";
+    lit3.style.background = "white";
+    lit4.style.background = "white";
+    lit5.style.background = "white";
+    lit6.style.background = "white";
+    
     loseGame();
   }
 }
@@ -173,6 +254,8 @@ key6.addEventListener(
 );
 key6.addEventListener("pointerup", () => (lit6.style.background = "white"));
 key6.addEventListener("mouseleave", () => (lit6.style.background = "white"));
+
+
 
 // Sound Synthesis Functions
 const freqMap = {
