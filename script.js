@@ -37,6 +37,7 @@ function startGame() {
     alert("The pattern will be random");
     randomize(pattern);
   } else {
+    pattern = [1, 2, 1, 2, 1, 3, 4, 5, 6];
     alert("The pattern will be a short version of Fur-Elise");
   }
 
