@@ -52,6 +52,12 @@ function startGame() {
 
   //calling playClueSequence
   playClueSequence();
+  
+  //lives reset
+  lives = 3;
+  document.getElementById("heart1").classList.remove("hidden");
+  document.getElementById("heart2").classList.remove("hidden");
+  document.getElementById("heart3").classList.remove("hidden");
 }
 
 //stopGame
@@ -65,6 +71,12 @@ function stopGame() {
 
   //uncheck randomize, default to Fur-Elise
   document.getElementById("randomize").checked = false;
+  
+  //lives reset
+  lives = 3;
+  document.getElementById("heart1").classList.remove("hidden");
+  document.getElementById("heart2").classList.remove("hidden");
+  document.getElementById("heart3").classList.remove("hidden");
 }
 
 //keybinds to clicking
