@@ -37,7 +37,7 @@ The following **additional** features are implemented:
 - [ ] Added keybinds to the buttons that are also compatible with the game logic (works with the guessing process)
 - [ ] Made random patterns an optional feature users can opt in/out of
 - [ ] Added hearts that update according to mistakes left
-- [ ] Piano keys light up only during game pattern playing the pattern not user input
+- [ ] Piano keys light up only during game pattern playing the pattern, not user input
 - [ ] Alert messages to inform user if they will be challenged against the Fur Elise piano pattern or a randomly generated pattern
 - [ ] Defaulted pattern to Fur Elise unless specified by checkbox
 - [ ] Checkbox unchecks upon reset (clicking stop, winning, and losing)
