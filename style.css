@@ -1,0 +1,167 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  height: 100%;
+  display: table;
+  margin: auto;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-size: cover;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+}
+
+/* --- background --- */
+#back {
+  width: 100vw;
+  height: 100vh;
+  /*credits to - https://gifer.com/en/7Rco */
+  background-image: url(https://cdn.glitch.global/14292aff-a60e-420e-928f-9af4258311a1/centerBlur.gif?v=1650661281244);
+}
+
+/* --- backdrop --- */
+#backdrop {
+  background-color: lightblue;
+  width: 80vw;
+}
+
+/* --- heading ---*/
+h1 {
+  text-align: center;
+  font-family: verdana, arial, sans-serif;
+}
+
+/* --- short description --- */
+#shortDesc {
+  text-align: center;
+  font-size: 17px;
+}
+
+/* --- center --- */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center > button {
+  width: 150px;
+  height: 50px;
+}
+
+/* --- all buttons --- */
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* --- start & end buttons --- */
+#startBtn {
+  background-color: Transparent;
+}
+
+#stopBtn {
+  background-color: Transparent;
+}
+
+/* --- click indicator --- */
+#lightNotice > div {
+  width: 100px;
+  height: 30px;
+  margin: 2px;
+  border-radius: 6px;
+  display: inline-block;
+}
+#lit1 {
+  background: white;
+}
+#lit2 {
+  background: white;
+}
+#lit3 {
+  background: white;
+}
+#lit4 {
+  background: white;
+}
+#lit5 {
+  background: white;
+}
+#lit6 {
+  background: white;
+}
+
+/* --- buttons in gameButtonArea --- */
+#gameButtonArea > button {
+  width: 100px;
+  height: 300px;
+  margin: 2px;
+}
+
+/* --- individual buttons(default state) in gameButtonArea --- */
+#button1 {
+  background: white;
+}
+#button2 {
+  background: #181c19;
+}
+#button3 {
+  background: white;
+}
+#button4 {
+  background: #181c19;
+}
+#button5 {
+  background: white;
+}
+#button6 {
+  background: #181c19;
+}
+
+/* --- active buttons --- */
+#button1.lit {
+  background: red;
+}
+#button2.lit {
+  background: red;
+}
+#button3.lit {
+  background: red;
+}
+#button4.lit {
+  background: red;
+}
+#button5.lit {
+  background: red;
+}
+#button6.lit {
+  background: red;
+}
+
+/* --- hidden class --- */
+.hidden {
+  display: none;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
