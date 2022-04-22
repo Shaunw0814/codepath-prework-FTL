@@ -38,6 +38,7 @@ function startGame() {
     randomize(pattern);
   } else {
     alert("The pattern will be a short version of Fur-Elise");
+    pattern = [1, 2, 1, 2, 1, 3, 4, 5, 6];
   }
 
   //initialize game variables
