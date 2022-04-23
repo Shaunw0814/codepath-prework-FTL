@@ -46,11 +46,17 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](https://im.ezgif.com/tmp/ezgif-1-2d71592fc5.gif) winning example with randomized (of size 3 to make gif short)
-![](https://im.ezgif.com/tmp/ezgif-1-aa3189588f.gif) example of losing with 3 lives
-![](https://im.ezgif.com/tmp/ezgif-1-44bdb5e293.gif) example of buttons being clicked (with both mouse and numberkeys above alphabets that are keybinded)
-![](https://im.ezgif.com/tmp/ezgif-1-920c5a42b0.gif) showing randomize option
-![](https://im.ezgif.com/tmp/ezgif-1-920c5a42b0.gif) example of progressing with the right cues, both with mouse and numberkeys
+![](https://im.ezgif.com/tmp/ezgif-1-2d71592fc5.gif) 
+![](https://im.ezgif.com/tmp/ezgif-1-aa3189588f.gif) 
+![](https://im.ezgif.com/tmp/ezgif-1-44bdb5e293.gif) 
+![](https://im.ezgif.com/tmp/ezgif-1-920c5a42b0.gif) 
+![](https://im.ezgif.com/tmp/ezgif-1-920c5a42b0.gif) 
+Gif captions listed below in order
+winning example with randomized (of size 3 to make gif short)
+example of losing with 3 lives
+example of buttons being clicked (with both mouse and numberkeys above alphabets that are keybinded)
+showing randomize option
+example of progressing with the right cues, both with mouse and numberkeys
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
@@ -91,7 +97,7 @@ If I had a few more hours to work on this project, I would work on adding in mor
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://www.veed.io/view/2e7cd465-f953-4b3a-bda6-5bb4e8172517)
 
 
 ## License
