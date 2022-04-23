@@ -58,10 +58,6 @@ function startGame() {
   document.getElementById("heart1").classList.remove("hidden");
   document.getElementById("heart2").classList.remove("hidden");
   document.getElementById("heart3").classList.remove("hidden");
-  
-  //times reset
-  nextClueWaitTime = 650;
-  cluePauseTime = 333;
 }
 
 //stopGame
@@ -81,10 +77,6 @@ function stopGame() {
   document.getElementById("heart1").classList.remove("hidden");
   document.getElementById("heart2").classList.remove("hidden");
   document.getElementById("heart3").classList.remove("hidden");
-  
-  //times reset
-  nextClueWaitTime = 650;
-  cluePauseTime = 333;
 }
 
 //keybinds to clicking
@@ -142,32 +134,20 @@ document.onkeyup = function kUp(x) {
 function loseGame() {
   stopGame();
   alert("Game Over. You lost.");
-  
-  //lives reset
   document.getElementById("heart1").classList.remove("hidden");
   document.getElementById("heart2").classList.remove("hidden");
   document.getElementById("heart3").classList.remove("hidden");
   lives = 3;
-  
-  //times reset
-  nextClueWaitTime = 650;
-  cluePauseTime = 333;
 }
 
 //winGame - notification for winning
 function winGame() {
   stopGame();
   alert("Game Over. You won!");
-  
-  //lives reset
   document.getElementById("heart1").classList.remove("hidden");
   document.getElementById("heart2").classList.remove("hidden");
   document.getElementById("heart3").classList.remove("hidden");
   lives = 3;
-  
-  //times reset
-  nextClueWaitTime = 650;
-  cluePauseTime = 333;
 }
 
 //playSingleCue
