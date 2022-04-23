@@ -46,18 +46,40 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](http://g.recordit.co/VIzmmTKG03.gif)
-![](http://g.recordit.co/HFPwsh3A5H.gif)
-![](http://g.recordit.co/YaIYCqurrf.gif)
-![](https://im.ezgif.com/tmp/ezgif-1-920c5a42b0.gif)
-<img src="https://im.ezgif.com/tmp/ezgif-1-920c5a42b0.gif" width=250><br>
+![](https://im.ezgif.com/tmp/ezgif-1-2d71592fc5.gif) winning example with randomized (of size 3 to make gif short)
+![](https://im.ezgif.com/tmp/ezgif-1-aa3189588f.gif) example of losing with 3 lives
+![](https://im.ezgif.com/tmp/ezgif-1-44bdb5e293.gif) example of buttons being clicked (with both mouse and numberkeys above alphabets that are keybinded)
+![](https://im.ezgif.com/tmp/ezgif-1-920c5a42b0.gif) showing randomize option
+![](https://im.ezgif.com/tmp/ezgif-1-920c5a42b0.gif) example of progressing with the right cues, both with mouse and numberkeys
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+
+https://stackoverflow.com/questions/6464592/how-to-align-entire-html-body-to-the-center
+
+https://www.w3schools.com/howto/howto_css_center_button.asp
+
+https://stackoverflow.com/questions/4502633/how-to-affect-other-elements-when-one-element-is-hovered
+
+https://stackoverflow.com/questions/69899775/pointerdown-vs-onclick-what-is-the-difference
+
+https://www.nicepng.com/maxp/u2q8y3o0i1a9i1t4/
+
+https://fontmeme.com/pixel-fonts/      Used for pixel start/stop images
+
+https://stackoverflow.com/questions/21590343/how-to-display-a-gif-fullscreen-for-a-webpage-background
+
+https://www.w3schools.com/tags/att_input_type_checkbox.asp
+
+https://www.w3schools.com/tags/att_input_type_checkbox.asp
+
+https://stackoverflow.com/questions/8206565/check-uncheck-checkbox-with-javascript
+
+https://melwinalm.medium.com/crcreating-keyboard-shortcuts-in-javascripteating-keyboard-shortcuts-in-javascript-763ca19beb9e
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+I ran into many challenges when creating this submission. All of them involve not being familiar with javascript and the different features and keywords javascript has to offer. For example, one of my additional features I had wanted to implement was attaching keybinds to my buttons so that it would be easier to use. However, I had no idea how to go about this idea. I overcame it with a lot of googling, trial and error, and testing till I got the rest keywords and commands and then implemented it to all the keys. Another challenge was adding the light indicators for user input and not only making the buttons glow. It was a visual change I wanted to make to improve the overall aesthetics but a problem was how I was gonna change one element when a button was clicked. Stack Overflow, Geeks for Geeks, and the rest of the internet helped me through these problems. There were also some HTML/CSS problems I ran into such as centering the text and stacking different classes/IDs together which sometimes caused unexpected results. Overall the challenges I was met with was because of my inexperience with HTML/CSS/Javascript band the lack of knowledge of what I can do with HTML/CSS/Javascript. Given more time, knowledge, and experience, I am sure I can overcome these challenges
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
