@@ -50,7 +50,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ![](http://g.recordit.co/HFPwsh3A5H.gif)
 ![](http://g.recordit.co/YaIYCqurrf.gif)
 ![](http://g.recordit.co/Kt8PseKIdc.gif)
-<img src="http://g.recordit.co/Kt8PseKIdc.gif" width=250><br>
+<img src="http://g.recordit.co/sEwmoKALVz.gif" width=250><br>
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
