@@ -51,17 +51,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ![](https://im.ezgif.com/tmp/ezgif-1-44bdb5e293.gif) 
 ![](https://im3.ezgif.com/tmp/ezgif-3-2c95de4481.gif) 
 <br/>
-Gif captions listed below in order
-<br/>
-winning example with randomized (of size 3 to make gif short)
-<br/>
-example of losing with 3 lives
-<br/>
-example of buttons being clicked (with both mouse and numberkeys above alphabets that are keybinded)
-<br/>
-showing randomize option
-<br/>
-example of progressing with the right cues, both with mouse and numberkeys
+Unfortunately some implemented features were too long to be shown in gifs. All features are covered in this video https://youtu.be/knLtZbQmig8
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
