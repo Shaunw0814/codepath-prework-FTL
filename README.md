@@ -49,8 +49,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ![](https://im.ezgif.com/tmp/ezgif-1-2d71592fc5.gif) 
 ![](https://im.ezgif.com/tmp/ezgif-1-aa3189588f.gif) 
 ![](https://im.ezgif.com/tmp/ezgif-1-44bdb5e293.gif) 
-![](https://im.ezgif.com/tmp/ezgif-1-920c5a42b0.gif) 
-![](https://im.ezgif.com/tmp/ezgif-1-920c5a42b0.gif) 
+![](https://im3.ezgif.com/tmp/ezgif-3-2c95de4481.gif) 
 <br/>
 Gif captions listed below in order
 <br/>
