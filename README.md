@@ -51,11 +51,17 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ![](https://im.ezgif.com/tmp/ezgif-1-44bdb5e293.gif) 
 ![](https://im.ezgif.com/tmp/ezgif-1-920c5a42b0.gif) 
 ![](https://im.ezgif.com/tmp/ezgif-1-920c5a42b0.gif) 
+<br/>
 Gif captions listed below in order
+<br/>
 winning example with randomized (of size 3 to make gif short)
+<br/>
 example of losing with 3 lives
+<br/>
 example of buttons being clicked (with both mouse and numberkeys above alphabets that are keybinded)
+<br/>
 showing randomize option
+<br/>
 example of progressing with the right cues, both with mouse and numberkeys
 
 ## Reflection Questions
