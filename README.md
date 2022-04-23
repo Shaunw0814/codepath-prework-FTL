@@ -55,6 +55,7 @@ Unfortunately some implemented features were too long to be shown in gifs. All f
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
+<br/>
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 
 https://stackoverflow.com/questions/6464592/how-to-align-entire-html-body-to-the-center
@@ -92,12 +93,12 @@ If I had a few more hours to work on this project, I would work on adding in mor
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](https://www.veed.io/view/2e7cd465-f953-4b3a-bda6-5bb4e8172517)
+[My 5-minute Interview Recording](https://youtu.be/4wAKU0TwhHI)
 
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright [Shaun Wang]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
