@@ -4,7 +4,7 @@
 
 Submitted by: Shaun Wang
 
-Time spent: 12 hours spent in total
+Time spent: 15 hours spent in total
 
 Link to project: https://glitch.com/edit/#!/ash-sugar-resistance (code)
 https://ash-sugar-resistance.glitch.me (Live Site)
